@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/styles.css">
+        <title>Cancellation Survey</title>
+    </head>
+
+    <body>
+        
+        <nav>
+            <div id="logo"><a href="#">HomeSecurity</a></div>
+            <ul>
+                <li><a href="#contoh">Home</a></li>
+                <li><a href="#">Price</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>        
+
+        <main>
+            <div class="header">
+                
+                <h1>Cancellation Survey</h1>
+                <h2>Thank you for using our service.</h2>
+            </div>
+
+            <form class="form">
+                <div class="form_item">
+                    <h2>How long have you been using our service?</h2>
+                    <div class="form_choices">
+                        <div >
+                            <label>
+                                <input type="radio" id="lessThanMonth" name="howLong">Less than a month
+                            </label>
+                            <label>
+                                <input type="radio" id="months7-12" name="howLong">7-12 months
+                            </label>
+                        </div>
+                        <div class="right">
+                            <label>
+                                <input type="radio" id="months1-6" name="howLong">1-6 months
+                            </label>
+                            <label>
+                                <input type="radio" id="years1-3" name="howLong">1-3 years
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form_item">
+                    <h2>How often did you use our service?</h2>
+                    <div class="form_choices">
+                        <div>
+                            <label>
+                                <input type="radio" id="everyday" name="howOften">Everyday
+                            </label>
+                            <label>
+                                <input type="radio" id="week2-3" name="howOften">2-3 times a week
+                            </label>
+                            <label>
+                                <input type="radio" id="onceWeek" name="howOften">Once a week
+                            </label>
+                        </div>
+                        <div class="right">
+                            <label>
+                                <input type="radio" id="month2-3" name="howOften">2-3 times a month
+                            </label>
+                            <label>
+                                <input type="radio" id="onceMonth" name="howOften">Once a month
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form_item" id="contoh">
+                    <h2>What was the main reason for cancelling our service?</h2>
+                    <div class="form_choices">
+                        <div>
+                            <label>
+                                <input type="checkbox" name="reason">No longer need it
+                            </label>
+                            <label>
+                                <input type="checkbox" name="reason">Found a better alternative
+                            </label>
+                            <label>
+                                <input type="checkbox" name="reason">Quality was less than expected
+                            </label>
+                            <label>
+                                <input type="checkbox" name="reason">Other
+                            </label>
+                        </div>
+                        <div class="right">
+                            <label>
+                                <input type="checkbox" name="reason">It didn't need my needs
+                            </label>
+                            <label>
+                                <input type="checkbox" name="reason">Found a cheaper alternative
+                            </label>
+                            <label>
+                                <input type="checkbox" name="reason">Ease of use was less than expected
+                            </label>
+                            <label>
+                                <input type="checkbox" name="reason">Customer service was less than expected
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form_item">
+                    <h2>Overall, how satisfied were you with our service? (On a scale of 1-5)</h2>
+                    <div class="form_satisfaction">
+                        <label>
+                            <input type="radio" name="satisfaction" value="1">1
+                        </label>
+                        <label>
+                            <input type="radio" name="satisfaction" value="2">2
+                        </label>
+                        <label>
+                            <input type="radio" name="satisfaction" value="3">3
+                        </label>
+                        <label>
+                            <input type="radio" name="satisfaction" value="4">4
+                        </label>
+                        <label>
+                            <input type="radio" name="satisfaction" value="5">5
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form_item">
+                    <h2>How can we improve our service?</h2>
+                    <label>
+                        <textarea id="feedback" name="feedback" rows="8" cols="80"></textarea>
+                    </label>
+                </div>
+
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+            
+        </main>
+
+        <footer>
+            Tugas Pemrograman Web 2 @ 2022, Ahmad Hafiz Mahardika
+        </footer>
+    </body>
+</html>
